@@ -24,7 +24,7 @@ ReactDom.createRoot(document.getElementById('root')!).render(
     <Router>
       <Routes>
         <Route path='/' element={<AuthRoute><App /></AuthRoute>} />
-        <Route path='/login' element={<Login />} />
+        <Route path='/' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
         <Route path='*' element={<Navigate to="/" />} />
       </Routes>
